@@ -1,9 +1,9 @@
-# Example usage:
-# x <- matrix(rnorm(9), nrow = 3)           // How to create our base matrix x
-# cx <- makeCacheMatrix(x)                  // How to create special matrix using function
-# cx$get()                                  // How to retrieve our special matrix
-# cacheSolve(cx)                            // How to retrieve the inverse (if not exist)
-# cacheSolve(cx)                            // How to retrieve the inverse (from cache, because exists)
+## cacheMatrix usage based on below code:
+# 1.) x <- matrix(rnorm(9), nrow = 3)           // How to create our base matrix x
+# 2.) cx <- makeCacheMatrix(x)                  // How to create special matrix using function
+# 3.) cx$get()                                  // How to retrieve our special matrix
+# 4.) cacheSolve(cx)                            // How to retrieve the inverse (if not exist)
+# 5.) cacheSolve(cx)                            // How to retrieve the inverse (from cache, because exists)
 
 ## Based on makeVector function we can create makeCacheMatrix one
 #
